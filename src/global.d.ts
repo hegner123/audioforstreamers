@@ -1,0 +1,4 @@
+
+interface window {
+    audioCtx: any
+}

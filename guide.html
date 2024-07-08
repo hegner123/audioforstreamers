@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio for Streamers</title>
+</head>
+
+
+    <body class='typora-export'>
+        <div class='typora-export-content'>
+            <div id='write' class=''>
+                <p>&nbsp;</p>
+                <p><strong><span>Gain staging</span></strong><span>:</span></p>
+                <p><span>The ideal gain staging is:</span></p>
+                <ul>
+                    <li>
+                        <p><span>obs volume at +-0db</span></p>
+                    </li>
+                    <li>
+                        <p><span>bridgecaster master volume set at +-0db,</span></p>
+                    </li>
+                    <li>
+                        <p><span>mic channel volume at +-0db</span></p>
+                    </li>
+                    <li>
+                        <p><span>mic gain set so things don&#39;t clip when loud. </span></p>
+                    </li>
+                </ul>
+                <p><span>When making adjustments start from the source and work your way up the stages to get things
+                        blanced properly. </span></p>
+                <p><span>if your overal balnce on the bridgecaster is good, but your still clipping obs input, drop the
+                        output of the bridgecaster.</span></p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p><strong><span>Causes of distortion</span></strong><span>: </span></p>
+                <ol>
+                    <li>
+                        <p><span>Clipping on inputs or outputs of hardware or software.</span></p>
+                    </li>
+                    <li>
+                        <p><span>Limiters with fast release with audio way above threshold</span></p>
+                    </li>
+                    <li>
+                        <p><span>Compressors with fast release with audio way above threshold</span></p>
+                    </li>
+                    <li>
+                        <p><span>De-essers with audio way above threshold</span></p>
+                    </li>
+                    <li>
+                        <p><span>Gate with super fast release and attack.</span></p>
+                    </li>
+                </ol>
+                <p><span>Tips when mixing audio:</span></p>
+                <ol>
+                    <li>
+                        <p><strong><span>Speech intelligibility:</span></strong><span> The fundamental tone of female
+                                voices is typically 200Hz - 220Hz. The fundamental tone of male voices is 100Hz - 120Hz.
+                                The most important freq range for inteligibility in english is 2kHz. A more in-depth
+                                article </span><a
+                                href='https://www.dpamicrophones.com/mic-university/facts-about-speech-intelligibility'><span>here</span></a><span>.</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p><strong><span>Start with too much</span></strong><span>: Its faster to make adjustments by
+                                going past what sounds good and then dialing it back into acceptable range. The human
+                                brain responds better to higher contrast, so instead of gradually and incrementingly
+                                making changes and trying to decide if your changes are effective, it becomes much more
+                                obvious when you make bigger changes and then correct to acceptable values.</span></p>
+                    </li>
+                    <li>
+                        <p><strong><span>Beware ear fatigue</span></strong><span>: Listening to the same sound over and
+                                over again ruins your perspective on how something sounds. Always have another bit of
+                                audio to compare too. Example: Record some audio, listen back, listen to another bit of
+                                audio that&#39;s comparable (not in volume but in timbre), listen to yours, make
+                                adjustments, repeat until happy.</span></p>
+                    </li>
+                    <li>
+                        <p><strong><span>High-pass filter (hp) / low cut filter</span></strong><span>: Mics pick up
+                                everything that makes noise. The truck that rolled past your house, the subs your
+                                neighboors are blasting, the electrical hum your wires pick up, the sound of air hitting
+                                the mic, and so much more, your mic picks up all of it. Using a high-pass / low-cut
+                                filter to cut out the freq you aren&#39;t using ensures that that feq space is available
+                                for other things (explosions ffrom games, lowend from music, etc). Its a best practice
+                                to cut below the fundemental of your voice so that toggling the hp filter on &amp; off
+                                makes no noticible difference to your voice.</span></p>
+                    </li>
+                    <li>
+                        <p><strong><span>Mic position:</span></strong><span> All microphones have different frequency
+                                responses based on your distance to the microphone. The most prominent effect of this is
+                                how much bass freq your voice has when you get closer to the mic vs far away. The only
+                                thing that really matters here is consistency. By maintaing a consistent distance from
+                                the mic you can guarantee a consistent sound.</span></p>
+                    </li>
+                    <li>
+                        <p><strong><span>Gain:</span></strong><span> Once you have your mic at a comfortable distance
+                                adjust the gain of the bridge caster till your peaks are in the yellow. </span></p>
+                    </li>
+                    <li>
+                        <p><strong><span>Sm7b Frequency Response:</span></strong><span> </span><a
+                                href='https://soundref.com/shure-sm7b-review/#:~:text=The%20Shure%20SM7B%20has%20a%20wide%20frequency%20range%20of%2050Hz%20%E2%80%93%2020kHz.'><span>This
+                                    is the frequency response for the sm7b</span></a><span>. You can see from the chart
+                                the highend drops around 10Khz. This makes the mic naturally dull, so you need to
+                                brighten it up by boosting high freq&#39;s.</span></p>
+                    </li>
+                </ol>
+                <p><span>Glossary:</span></p>
+                <p><a href='https://www.shure.com/en-US/performance-production/louder/mic-basics-frequency-response'><span>Frequency
+                            response</span></a><span>: the timbre or sound of an audio device. </span></p>
+                <p><a href='https://en.wikipedia.org/wiki/Proximity_effect_(audio)'><span>Proximity
+                            Effect</span></a><span>: The increase in bass frequencies when physically closer to the
+                        microphone diaphragm.</span></p>
+            </div>
+        </div>
+    </body>
+
+</html>
